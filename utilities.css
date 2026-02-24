@@ -1,0 +1,35 @@
+@layer utilities {
+
+    .page-row {
+        padding-inline: var(--page-row-padding, 1rem);
+
+        & .page-row--inner {
+            margin: 0 auto;
+            max-width: var(--page-row-width-md, 960px);
+        }
+
+        &.page-row__2xs .page-row--inner {
+            max-width: var(--page-row-width-2xs, 480px);
+        }
+
+        &.page-row__xs .page-row--inner {
+            max-width: var(--page-row-width-xs, 640px);
+        }
+
+        &.page-row__sm .page-row--inner {
+            max-width: var(--page-row-width-sm, 800px);
+        }
+
+        &.page-row__lg .page-row--inner {
+            max-width: var(--page-row-width-lg, 1120px);
+        }
+
+        &.page-row__xl .page-row--inner {
+            max-width: var(--page-row-width-xl, 1280px);
+        }
+
+        &.page-row__2xl .page-row--inner {
+            max-width: var(--page-row-width-2xl, 1440px);
+        }
+    }
+}
