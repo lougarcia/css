@@ -1,0 +1,32 @@
+@layer reset {
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        font: inherit;
+    }
+
+    html {
+        color-scheme: dark light;
+    }
+
+    body {
+        min-height: 100svh;
+    }
+
+    img, picture, svg, video {
+        display: block;
+        max-width: 100%;
+    }
+
+    h1, h2, h3 {
+        line-height: 1.1;
+    }
+
+    p {
+        line-height: 1.75;
+    }
+}
